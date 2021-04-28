@@ -1,0 +1,217 @@
+img {
+    width: 225px;
+    transform: rotate(360deg);
+    margin-right: 20px;
+}
+
+
+/*style section*/
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    color: #8A2BE2;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rancho', cursive;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+P {
+    color: #4B0082;
+    font: bolder;
+}
+
+a {
+    color: #FFD700
+}
+
+a:hover {
+    text-decoration: none;
+    color: orangered;
+    border-radius: 4px;
+}
+
+.delta {
+    color: royalblue;
+}
+
+header {
+    background: #8bcbf3;
+    line-height: 40px;
+}
+
+h1 {
+    color: #ee654d;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+h2 {
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-family: 'Playball', cursive;
+}
+
+.jex h2 {
+    color: #DC143C;
+}
+
+.jex h3 {
+    color: #DC143C;
+}
+
+.jex {
+    background-color: rgb(35, 189, 189);
+    background-size: auto;
+}
+
+.jex a {
+    color: wheat;
+    background-color: rgb(148, 0, 211);
+    padding: 9px;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 6px;
+    display: inline-block;
+}
+
+.jex a:hover {
+    background-color: rgb(148, 0, 211, 80%);
+    padding: 7px;
+    border-radius: 3px;
+    padding: 7px;
+    margin: 5px;
+}
+
+footer {
+    background-color: #6b98c5;
+}
+
+footer h2 {
+    color: #DAA520
+}
+
+.proj2 {
+    background-color: #17f0b9;
+}
+
+.proj2 h2 {
+    color: #8B4513
+}
+
+.proj3 {
+    background-color: #FFF0F5;
+}
+
+.proj3 h2 {
+    color: #191970
+}
+
+.contenter {
+    max-width: 700px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.maxr {
+    overflow: hidden;
+}
+
+.divide>section {
+    border-bottom: 2px dashed grey;
+    padding: 20px 0;
+}
+
+.divide>section:last-of-type {
+    border-bottom: none;
+}
+
+.maxr h3 {
+    margin-top: 0;
+}
+
+.contacts {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contacts a {
+    padding: 15px;
+    display: inline-block;
+}
+
+.itemz0 h3+p {
+    font-style: italic;
+}
+
+.itemz0 h3~p {
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.educ {
+    background-image: url(../images/book.jpg);
+    background-position: top right;
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+.edu p {
+    width: 60%;
+}
+
+
+/*devices differnces*/
+
+@media screen and (min-width:650px) {
+    header,
+    footer {
+        text-align: center;
+    }
+    .maxr img {
+        float: left;
+    }
+    .job-item {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        column-gap: 20px;
+    }
+    h1 {
+        font-size: 90px;
+    }
+    h2 {
+        font-size: 45px
+    }
+    .contacts {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:649px) {
+    h1 {
+        font-size: 5px;
+    }
+    h2 {
+        font-size: 25px
+    }
+    .contacts a {
+        padding: 6px;
+    }
+}

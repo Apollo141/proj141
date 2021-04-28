@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <script></script>
+
+
+    <style>
+        body {
+            background: #ddd;
+            font-family: Arial
+        }
+        
+        fieldset {
+            background: #efefee;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        
+        legend {
+            background: white;
+            border: 3px solid grey
+        }
+        
+        .ti {
+            color: black
+        }
+        
+        label {
+            margin: 10px;
+            display: block
+        }
+        
+        input {
+            margin-bottom: 10px;
+        }
+        
+        input[type="text"],
+        input[type="password"] {
+            padding: 8px;
+            width: 300px;
+            display: block
+        }
+        
+        textarea {
+            height: 200px;
+            width: 300px;
+        }
+    </style>
+
+
+    <title>Nice</title>
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+    <form name="register">
+        <fieldset aria-setsize="10">
+
+
+            <legend class="ti">personal info</legend>
+
+            <label>Username</label>
+            <input type="text" name="username">
+            <label>Passowrd</label>
+            <input type="password" name="passowrd">
+            <label>Email</label>
+            <input type="text" name="email">
+            <br>
+            <label>Gender</label>
+            <select>
+                <Option>
+                  Male
+                </Option>
+                <option>
+                 Female
+                </option>
+            </select>
+
+        </fieldset>
+        <legend> Your Favorites
+            <hr>
+            <fieldset>
+                <legend> Your Favorite Language </legend>
+                <input type="radio" name="editor">c++ <br> <br>
+                <input type="radio" name="editor">html <br> <br>
+                <input type="radio" name="editor">java
+            </fieldset>
+
+            <hr>
+            <fieldset>
+                <legend> Your Favorite Browser</legend>
+                <input type="radio" name="browser">FireFox <br> <br>
+                <input type="radio" name="browser">Chrome<br> <br>
+                <input type="radio" name="browser">Opra
+            </fieldset>
+            <hr>
+            <fieldset>
+                <legend> Your Favorite Operating System</legend>
+                <input type="radio" name="system">Windows <br> <br>
+                <input type="radio" name="system">Mac Osx<br> <br>
+                <input type="radio" name="system">Linux
+            </fieldset>
+        </legend>
+
+        <fieldset>
+            <legend> Your Message</legend>
+
+            <textarea>
+
+
+
+            </textarea>
+            <input type="submit" value="Send Your Data">
+
+
+
+
+        </fieldset>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
